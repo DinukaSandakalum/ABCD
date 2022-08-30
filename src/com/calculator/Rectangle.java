@@ -6,7 +6,7 @@ public class Rectangle {
     public Rectangle(int length, int width) {
         this.length = length;
         this.width = width;
-        System.out.println("Area of Rectangle = "+ area());
+        //System.out.println("Area of Rectangle = "+ area());
     }
 
     public int getLength() {return length;}

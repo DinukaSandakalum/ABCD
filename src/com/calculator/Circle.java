@@ -3,7 +3,7 @@ package com.calculator;
 public class Circle {
     public Circle(int radius) {
         this.radius = radius;
-        System.out.println("Area of the Circle = "+area());
+        //System.out.println("Area of the Circle = "+area());
     }
 
     public int getRadius() {

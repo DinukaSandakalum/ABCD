@@ -4,7 +4,7 @@ public class Triangle {
     public Triangle(int length, int width) {
         this.length = length;
         this.width = width;
-        System.out.println("Area of Triangle = "+ area());
+        //System.out.println("Area of Triangle = "+ area());
     }
 
     public int getLength() {return length;}
