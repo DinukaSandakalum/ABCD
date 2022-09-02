@@ -2,7 +2,7 @@ package com.calculator;
 
 import java.sql.SQLOutput;
 
-public class Rectangle {
+public class Rectangle extends Shape{
     public Rectangle(int length, int width) {
         this.length = length;
         this.width = width;
@@ -20,7 +20,8 @@ public class Rectangle {
     private int length;
     private int width;
 
-    public int area(){
+    @Override
+    public double area(){
         return this.length*this.width;
     }
 

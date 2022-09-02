@@ -1,6 +1,6 @@
 package com.calculator;
 
-public class Circle {
+public class Circle extends Shape{
     public Circle(int radius) {
         this.radius = radius;
         //System.out.println("Area of the Circle = "+area());
@@ -16,8 +16,9 @@ public class Circle {
 
     private int radius;
 
+    @Override
     public double area(){
-        return 3.14*(this.radius)*(this.radius);
+        return (3.14)*(this.radius)*(this.radius);
     }
 
 

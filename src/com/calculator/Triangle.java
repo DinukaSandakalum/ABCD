@@ -1,11 +1,12 @@
 package com.calculator;
 
-public class Triangle {
+public class Triangle extends Shape {
     public Triangle(int length, int width) {
         this.length = length;
         this.width = width;
         //System.out.println("Area of Triangle = "+ area());
     }
+
 
     public int getLength() {return length;}
 
@@ -18,6 +19,7 @@ public class Triangle {
     private int length;
     private int width;
 
+    @Override
     public double area(){
         return this.length*this.width*0.5;
     }
